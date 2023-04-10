@@ -1,0 +1,660 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    padding-left: 90px;
+    padding-top: 7px;
+    color: rgb(97, 65, 26);
+    font-weight: 800;
+}
+
+   
+
+.nav{
+    background-color: rgb(219, 224, 224);
+   display: flex;
+}
+.navbar ul li{
+    display: inline;
+  
+}
+ ul li a{
+    display: inline-block;
+   padding-left:100px;
+   margin-top: 5px;
+   text-decoration: none;
+   font-family: "Montserrat";
+   color: black;
+   font-weight: 500;
+   
+   
+
+    
+    
+}
+
+.btn-1{
+    background-color: rgb(174, 179, 181);
+    padding: 7px;
+    border-color: aliceblue;
+    border-radius: 10px ;
+    font-family: "poppins";
+    color: white;
+    font-weight: bold;
+    
+   
+  
+   
+}
+
+/* .main-text{
+    background-color: rgb(240, 225, 207);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat";
+   
+    flex-direction: column;
+    padding-left: 12%;
+    padding-top:  10%;
+}
+.main-text h1{
+    font-weight: 600;
+    width: 50%;
+
+}
+.main-text h4{
+    font-weight: 400;
+   
+}
+.button-2{
+    background-color: rgb(243, 201, 150);
+    text-align: center;
+    padding: 10px;
+   
+    color: aliceblue;
+    font-family: "Montserrat";
+    border-color: aliceblue;
+    font-weight: 700;
+    
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 8s;
+  }
+
+.text {
+    width: 50%;
+}  
+
+/* .main-2{
+    width: 50%;
+background-color: aqua;
+display: flex;
+flex-direction: row;
+    height: 80vh;
+align-items: center;
+  
+  
+   
+} 
+.main-2{
+    display: flex;
+    background-color: aqua;
+    height: 80vh;
+    width: 50%;
+    float: right;
+  flex-direction: row;
+    flex-direction: row;
+} */
+/* .conatiner-fulid{
+    width: 100%;
+    background-color: aqua;
+    height: 80vh;
+} */
+/* .main{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
+.first{
+    background-color: aqua;
+    width: 100%;
+    height: 80vh;
+}
+.image{
+    background-color: aquamarine;
+    height: 30vh;
+    width: 50%;
+    flex-direction: row;
+    display: flex;
+} */
+
+
+
+
+/* .background{
+
+    max-width: 100%;
+    display: flex;
+  
+    height: 80vh;
+  background-color: rgb(240, 225, 207)
+  ;
+  
+  }
+  .main-text{
+    display: flex;
+  justify-content: center;
+  padding-left: 90px;
+    color: rgb(68, 70, 72);
+    flex-direction: column;
+    max-width: 50%;
+  
+    
+  
+  
+  }
+  .main-text h1{
+    font-family: "poppins";
+   
+  }  
+  .main-text h4{
+  font-weight: 300;
+  
+  }
+  .main-text h3{
+    font-family: "poppins";
+    font-weight: 600;
+  }
+  
+  
+  .image-1{
+    display: flex;
+ 
+    margin-bottom: 20px;
+    margin-left: 30%;
+   
+  }
+  .image-1 img{
+  display: flex;
+  height: 400px;
+ width: 100%;
+ margin-right: 40px;
+ margin-top: 20px;
+  
+  
+  
+  
+  } */
+
+/* .background{
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://img.freepik.com/free-photo/young-colleagues-work-office-using-computers_171337-6718.jpg?w=900&t=st=1680850475~exp=1680851075~hmac=371c19d3e3ab947d7aa255b7d6af806373a5a2b9d1ebae8c55ac2feb1f31538e");
+  } */
+
+  .flex-container {
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    background-color: rgb(206, 206, 205);
+  }
+  
+  .flex-container > div {
+    background-color:rgb(175, 208, 225);
+    width: 100%;
+    height:90vh;
+    
+    
+    
+   
+    font-size: 30px;
+  }
+  .image img{
+    height: 400px;
+    width: auto;
+    border: 10px solid white;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: black;
+    
+    position: static;
+    
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+padding-left: 100px;
+  }
+  .button-2{
+    background-color: rgb(174, 179, 181);
+  
+    border-color: aliceblue;
+    padding: 7px;
+    border-radius: 10px ;
+    font-family: "poppins";
+   
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+  }
+  .text h1{
+    font-family: "poppins";
+   
+  }  
+  .text h4{
+  font-weight: 300;
+  
+  }
+  .text h3{
+    font-family: "poppins";
+    font-weight: 600;
+  }
+
+  .animate__animated.animate__fadeInTopLeft {
+    --animate-duration: 3s;
+  }
+
+   .animate__animated.animate__fadeInBottomRight {
+    --animate-duration: 3s;
+  }
+
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.button-3{
+    padding: 10px;
+    color: aliceblue;
+    background-color:rgb(174, 179, 181) ;
+    font-family: "poppins";
+    font-weight: 600;
+    border-radius: 0px 20px 0px 20px;
+    border-color: rgb(146, 185, 230);
+}
+
+
+  .container {
+    position: relative;
+    width: 270px;
+    display: flex;
+    height: 270px;
+    margin: 10px;
+   
+    
+   background-color:rgb(255, 255, 255) ;
+    align-items: center;
+    flex-direction: row;
+  
+  }
+.image-1 img{
+    height: 270px;
+    width: 270px;
+  
+}
+  
+  .image-1 {
+    display: flex;
+    background-color:rgb(174, 179, 181);
+    flex-direction: row;
+    width: 270px;
+    border-radius:  20px 20px 0px 0px;
+
+    
+    
+    height: 270px;
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+   
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 270px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+.pop{
+    display: flex;
+    flex-direction: row;
+}
+.inner{
+    padding: 5px;
+    font-size: small;
+    border-radius: 10px;
+    background-color: rgb(175, 208, 225);
+    color: white;
+    font-weight: medium;
+    margin-bottom: 3px;
+}
+  
+.carousel-item{
+  background-color: rgb(175, 208, 225);;
+  width: 100%;
+  height: 80vh;
+  margin-top: 30px;
+}
+
+  .carousel-item img{
+    background-color: #ffffff;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+
+  }
+  .carousel-item p{
+    text-align: center;
+    padding: 30px;
+    font-family: "poppins";
+    font-size: small;
+  
+  }
+  .carousel-item h3{
+    text-align: center;
+    padding: 20px;
+    font-family: "poppins";
+    font-weight: 600;
+    text-decoration: dotted;
+  }
+  .container-4{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+  }
+  .container-4 h3{
+    text-align: center;
+    padding: 30px;font-weight: 600;
+    text-decoration: underline;
+    font-family: "Montserrat";
+  }
+  .flex-block{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80vh;
+  /* align-content: center; */
+  margin-left: 30%;
+  }
+
+  .logo{
+    height: 50px;
+    width:200px
+  }
+  .name {
+  
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  
+  }
+  .mobile {
+   
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    
+    }
+    .email {
+   
+      margin-bottom: 10px;
+      border-radius: 10px;
+      padding: 10px;
+      
+      }
+      #message{
+        border-radius: 10px;
+      }
+    .button-4{
+      background-color: rgb(129, 172, 208);
+      color: #ffffff;
+      font-weight: 600;
+     margin-top: 10px;
+     border-radius: 10px;
+      font-family: "poppins";
+    }  
+    /* .company{
+      display: flex;
+      width: 20%;
+      
+      flex-direction: column;
+      height: 50vh;
+    }
+    .company h4{
+      margin-top: 20px;
+      text-align: center;
+    }
+    .company p{
+      display: flex;
+      text-align: justify;
+      padding-left: 35px;
+    }
+    footer{
+      background-color: aqua;
+      margin-top: 20px;
+      height: 60vh;
+      width: 100%;
+    }
+    .links{
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+    } */
+    .flex-container-4 {
+      display: flex;
+      background-color: rgb(203, 203, 208);
+    }
+    
+    .flex-container-4 > div {
+      background-color: rgb(203, 203, 208);
+      margin: 10px;
+      padding: 20px;
+      
+    }
+    .company{
+      width: 25%;
+      
+      height: 50vh;
+    }
+    .company h4{
+      
+      font-weight: 400;
+
+    }
+    .container p{
+      display: flex;
+      font-size: smaller;
+      margin-left: 20px;
+      flex-direction: column;
+   
+    }
+    .qucik{
+      width: 15%;
+      margin-left: 10px;
+      
+    }
+    .quick h5{
+     padding-bottom: 10px;
+    }
+    .quick h5:hover{
+      color: #ffffff;
+      cursor: pointer;
+    }
+    .qucik h6{
+margin-bottom: 20px;
+    }
+    
+  .map{
+      background-color: antiquewhite;
+width: 25%;
+    }
+    /* .mapping{
+      height: 50vh;
+      width: 100px;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+    } */
+
+    .mapping{
+      width: 30%;
+      height: 50vh;
+      
+    }
+    
+
+    @media (max-width:400px){
+      .flex-container{
+        display: flex;
+        height: 100vh;
+       flex-direction: column;
+     
+      
+       
+
+    }.navbar-nav {
+      align-items: center;
+  
+    }
+
+    .flex-container > div {
+      background-color:rgb(175, 208, 225);
+      width: 100%;
+      height:50vh;
+      
+      
+      
+     
+      font-size: 30px;
+    }
+     .text animate{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  
+    
+    }
+     .text h5{
+     padding-right: 10px;
+     }
+    .image img{
+      height: 300px;
+      width: 90%;
+   margin-left: 20px;
+      border: 10px solid white;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      box-shadow: black;
+   
+      
+      
+      
+    }
+
+    }
+
+   @media (max-width:400px){
+    .pop{
+      display: flex;
+      margin-left: 40px;
+      flex-direction: column;
+    }
+    .flex-block{
+      display: flex;
+   width: 50%;
+   height: 60vh;
+   
+    
+  
+   
+     
+    }
+    .container-4{
+      height: 70vh;
+    }
+    .flex-container-4{
+      display: flex;
+      height:auto;
+      width: 100%;
+      flex-direction: column;
+     
+    }
+    .company{
+      width: 100%;
+      display: flex;
+      height: 140px;
+      flex-direction: column;
+     
+    }
+    .qucik{
+      width: 100%;
+      display: flex;
+      height: 180px;
+      flex-direction: column;
+    }
+    .map{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 40%;
+      flex-direction: column;
+    }
+    
+    .carousel-item{
+      height: 80vh;
+    
+    }
+    .mapping{
+      width: 100%;
+      height: auto;
+      display: flex;
+     text-align: center;
+     padding-bottom: 30px;
+    }
+    
+    
+   
+
+    
+   }
+
+   @media (max-width:700px) {
+    .navbar{
+      width: 100%;
+    }
+.flex-container{
+  display: flex;
+}
+
+   }
+ 
+
+
+ 
